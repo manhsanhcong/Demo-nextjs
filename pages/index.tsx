@@ -37,6 +37,12 @@ export default function Home() {
           height="220"
           alt="images"
         />
+        <Link href="/playground">
+          <a>Playground</a>
+        </Link>
+        <Link href="/hooks">
+          <a>Hooks</a>
+        </Link>
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h2>Documentation &rarr;</h2>
